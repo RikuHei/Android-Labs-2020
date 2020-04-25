@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_blue">
+    <fragment
+        android:id="@+id/navigation_blue"
+        android:name="com.example.menutask.ui.blue.Blue"
+        android:label="Blue"
+        tools:layout="@layout/blue_layout" />
+
+    <fragment
+        android:id="@+id/navigation_green"
+        android:name="com.example.menutask.ui.green.Green"
+        android:label="Green"
+        tools:layout="@layout/green_layout" />
+
+    <fragment
+        android:id="@+id/navigation_red"
+        android:name="com.example.menutask.ui.red.Red"
+        android:label="Red"
+        tools:layout="@layout/red_layout" />
+
+    <fragment
+        android:id="@+id/navigation_yellow"
+        android:name="com.example.menutask.ui.yellow.Yellow"
+        android:label="Yellow"
+        tools:layout="@layout/yellow_layout"/>
+</navigation>
